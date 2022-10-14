@@ -20,7 +20,10 @@ class WC_PostFinanceCheckout_Subscription_Service_Transaction extends WC_PostFin
 	    $space_id = get_option(WooCommerce_PostFinanceCheckout::CK_SPACE_ID);
 	    $create_transaction = new \PostFinanceCheckout\Sdk\Model\TransactionCreate();
 	    $create_transaction->setCustomersPresence(\PostFinanceCheckout\Sdk\Model\CustomersPresence::VIRTUAL_PRESENT);
-	    $create_transaction->setSpaceViewId(get_option(WooCommerce_PostFinanceCheckout::CK_SPACE_VIEW_ID));
+		$space_view_id = get_option(WooCommerce_PostFinanceCheckout::CK_SPACE_VIEW_ID);
+		if (is_numeric($space_view_id)) {
+			$create_transaction->setSpaceViewId($space_view_id);
+		}
 	    $create_transaction->setToken($token_id);
 	    $this->assemble_order_transaction_data($order, $create_transaction);
 	    $this->set_modified_order_line_items($order, $order_total, $create_transaction);
