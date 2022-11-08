@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce PostFinance Checkout Subscription\n"
+"Project-Id-Version: PostFinance Checkout Subscription\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-28 10:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,13 +19,13 @@ msgstr "Änderung der Zahlungsmethode"
 
 #: includes/class-wc-postfinancecheckout-subscription-migration.php:83
 #, php-format
-msgid "Woocommerce PostFinance Checkout %s+ has to be active."
-msgstr "Woocommerce PostFinance Checkout %s+ muss aktiv sein."
+msgid "PostFinance Checkout %s+ has to be active."
+msgstr "PostFinance Checkout %s+ muss aktiv sein."
 
 #: includes/class-wc-postfinancecheckout-subscription-migration.php:89
 #, php-format
-msgid "Woocommerce PostFinance Checkout %s+ is required. (You're running version %s)"
-msgstr "Woocommerce PostFinance Checkout %s+ ist erforderlich. (Sie verwenden die Version %s)"
+msgid "PostFinance Checkout %s+ is required. (You're running version %s)"
+msgstr "PostFinance Checkout %s+ ist erforderlich. (Sie verwenden die Version %s)"
 
 #: includes/class-wc-postfinancecheckout-subscription-migration.php:94
 #, php-format
@@ -38,8 +38,8 @@ msgid "Woocommerce Subscriptions %s+ is required. (You're running version %s)"
 msgstr "Woocommerce Subscriptions %s+ ist erforderlich. (Sie verwenden die Version %s)"
 
 #: includes/class-wc-postfinancecheckout-subscription-migration.php:105
-msgid "Could not activate plugin WooCommerce PostFinance Checkout Subscription"
-msgstr "Das Plugin WooCommerce PostFinance Checkout Subscription konnte nicht aktiviert werden"
+msgid "Could not activate plugin PostFinance Checkout Subscription"
+msgstr "Das Plugin PostFinance Checkout Subscription konnte nicht aktiviert werden"
 
 #: includes/class-wc-postfinancecheckout-subscription-migration.php:107
 msgid "Please check the following requirements before activating:"
@@ -69,22 +69,22 @@ msgstr "Der Wert PostFinance Checkout Token Id ist erforderlich."
 
 #: views/admin-notices/migration-failed.php:15
 msgid ""
-"There was an issue executing the migration for WooCommerce PostFinance Checkout "
+"There was an issue executing the migration for PostFinance Checkout "
 "Subscription."
-msgstr "Es gab ein Problem bei der Ausführung der Migration für WooCommerce PostFinance Checkout Subscription."
+msgstr "Es gab ein Problem bei der Ausführung der Migration für PostFinance Checkout Subscription."
 
 #: views/admin-notices/plugin-deactivated.php:14
 msgid ""
-"WooCommerce PostFinance Checkout Subscription deactivated because one of its dependencies "
+"PostFinance Checkout Subscription deactivated because one of its dependencies "
 "is no longer active."
-msgstr "WooCommerce PostFinance Checkout Subscription deaktiviert, da eine der Abhängigkeiten nicht mehr aktiv ist."
+msgstr "PostFinance Checkout Subscription deaktiviert, da eine der Abhängigkeiten nicht mehr aktiv ist."
 
 #. Name of the plugin
-msgid "WooCommerce PostFinance Checkout Subscription"
-msgstr "WooCommerce PostFinance Checkout Subscription"
+msgid "PostFinance Checkout Subscription"
+msgstr "PostFinance Checkout Subscription"
 
 #. Description of the plugin
-msgid "Addon to processs WooCommerce Subscriptions with PostFinance Checkout"
+msgid "Addon to process WooCommerce Subscriptions with PostFinance Checkout"
 msgstr "Addon zur Verarbeitung von WooCommerce Subscriptions mit PostFinance Checkout"
 
 #. URI of the plugin
